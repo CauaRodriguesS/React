@@ -1,6 +1,7 @@
 
 import './App.css';
 
+import HelloWord from './src/components/HelloWord.js';
 function App() {
   const name =new String ("caua")
   const newname = name.toLocaleUpperCase()
@@ -16,6 +17,7 @@ function App() {
       soma: {soma(9,3)}
      </p>
      <img src={img}/>
+     <HelloWord/>
     </div>
   );
 }
