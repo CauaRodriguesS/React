@@ -1,0 +1,9 @@
+.Conteiner{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 10px 10px 10px rgba(5, 5, 5, 0.367);
+    width: 50%;
+    margin: auto;
+}
+.content{
+    font-weight: bolder;
+}
