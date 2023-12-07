@@ -1,10 +1,18 @@
-function Item(props){
+import PropTypes from 'prop-types'
+
+function Item({marca,ano_lancamento}){
     return(
         <>
-        <li> {props.marca}</li>
-        <h1>teste</h1>
+        <li>
+            {marca} - {ano_lancamento}
+        </li>
+
         </>
     )
 
+}
+Item.propTypes = {
+    marca: PropTypes.string,
+    ano_lancamento: PropTypes.number
 }
 export default Item
