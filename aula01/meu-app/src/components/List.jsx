@@ -6,9 +6,10 @@ function List (){
             <ol>
                 <li>item</li>
                 <li>item</li>
-                <Item marca="camaro" ano_lancamento={2000}/>
+                <Item marca="camaro"ano_lancamento={2000}/>
                 <Item marca = "ferrari" ano_lancamento={1900}/>
                 <Item marca="biz" ano_lancamento={1991}/>
+                <Item marca="Chevrolet" ano_lancamento={1900/>
             </ol>
         </>
     )

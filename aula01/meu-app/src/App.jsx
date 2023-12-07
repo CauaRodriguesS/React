@@ -1,18 +1,17 @@
 
 import './App.css';
-import Frase from './components/Frase';
-import List from './components/List';
-
+import Evento from './components/Evento';
+import Form from './components/Form'
 function App() {
- const nome = "maria"
-  
-  
+ 
   return (
     <div  className="App" >
-      <h1>testando css</h1>
-      <Frase/>
-      <List/>
-    </div>
+      <h1>testando eventos
+      </h1>
+      <Evento numero = {1}/> 
+      <Evento numero = {2}/> 
+      <Form/>
+   </div>
   );
 }
 
